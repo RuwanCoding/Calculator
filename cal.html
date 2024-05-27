@@ -1,0 +1,40 @@
+<html>
+ <head>
+    <title> calculator</title>
+    <style>
+    .abc{
+    
+    }
+    </style>
+    <script>
+       function cal(x,y){
+         z = x+y;
+       	 document.getElementById("top").style.display = z;
+       
+       }
+    
+    </script>
+ 
+ </head>
+
+ <body>
+   <form>
+    <p > enter the first number: <input id = x> </p>
+    <p> enter the second number:<input id = y></p>
+    
+    <p> select the operator:</p>
+        <select>
+            <option id = 1>+</option>
+            <option id = 2>-</option>
+            <option id = 3>*</option>
+            <option id =4>/</option>
+            <option selected> None </option></p>
+        </select>
+            
+    <p></p>
+    <button type="button" onclick="cal()"> Answer: <input> </button>       
+    
+    <p> <input type="submit" value="Clear"> </p>
+ </body>
+
+</html>
